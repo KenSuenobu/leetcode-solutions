@@ -1,5 +1,6 @@
 /**
  * Takes a list of numbers in any order, and finds the median of the values in the array.
+ * Speed is `O(log n+m)`
  * 
  * @param nums1 First array of numbers
  * @param nums2 Second array of numbers

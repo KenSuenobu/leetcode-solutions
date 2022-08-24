@@ -1,6 +1,6 @@
 /**
  * Takes a number and convers it to its reverse, signed or unsigned.  Any number exceeding 32 bit bounds will
- * return a 0.
+ * return a 0.  Speed is `O(n)`
  * 
  * @param x Number to reverse
  * @returns `x` in reverse

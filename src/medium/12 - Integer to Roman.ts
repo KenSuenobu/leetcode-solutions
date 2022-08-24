@@ -58,6 +58,7 @@ function ones(val: string): string {
 
 /**
  * Converts an integer value to its roman numeral counterpart.  Number is between 0 and 3999.
+ * Speed is `O(n)`
  * 
  * @param num Number to convert to roman numerals.
  * @returns number (between 0 and 3999) converted to roman numerals.

@@ -1,6 +1,6 @@
 /**
  * Takes a string and searches for the longest substring within its bounds that does not contain repeating
- * characters.  Returns the length of the longest substring found.
+ * characters.  Returns the length of the longest substring found.  Speed is `O(n)`
  * 
  * @param s String to search for non-repeating characters
  * @returns Length of the substring that was found

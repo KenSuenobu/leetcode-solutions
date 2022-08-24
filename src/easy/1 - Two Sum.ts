@@ -1,6 +1,6 @@
 /**
  * Takes an array of literally any size containing numbers, and looks through the array for two numbers 
- * that match the target.  Assumes there is only one solution.
+ * that match the target.  Assumes there is only one solution.  Speed is `O(n^2)`.
  * 
  * @param nums Array of numbers
  * @param target The target to find

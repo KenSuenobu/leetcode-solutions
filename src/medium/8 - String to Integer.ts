@@ -1,7 +1,7 @@
 /**
  * Converts a string to an integer (atoi).  This custom version does not use `parseInt`; it takes the value of
  * the US-ASCII character found, and converts it into its numeric counterpart, subtracting ASCII `0` from the
- * value.  Anything exceeding those bounds is not a number.  32 bit bounds rules apply.
+ * value.  Anything exceeding those bounds is not a number.  32 bit bounds rules apply.  Speed is `O(n)`
  * 
  * @param s String to convert to integer.
  * @returns Integer form of the string, if valid.

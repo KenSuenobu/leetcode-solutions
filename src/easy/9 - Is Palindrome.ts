@@ -1,5 +1,6 @@
 /**
  * Determines if a number is a palindrome.  Only valid for positive numbers.
+ * Speed is `O(x/2)`
  * 
  * @param x Number to validate
  * @returns `true` if the number is a palindrome, `false` otherwise.

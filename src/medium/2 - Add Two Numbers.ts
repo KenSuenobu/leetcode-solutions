@@ -10,7 +10,7 @@ class ListNode {
 
 /**
  * Takes two numbers stored in reverse order, swaps the order, sums the two, and returns the result
- * in reverse order.
+ * in reverse order.  Speed is `O(log 2n)`
  * 
  * @param l1 First set of numbers to add
  * @param l2 Second set of numbers to add

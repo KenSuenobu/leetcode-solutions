@@ -8,9 +8,9 @@ bit more restrictive for such purposes.
 As I get time, I will add more optimizations to the code, which you will
 be able to see in the code repository history.
 
-Where possible, I use brute force to solve solutions.  I will also use
-more elegant solutions as I have time to go back over code and make
-appropriate changes.
+Where possible, I use brute force to solve problems, if it makes sense.
+I also use more elegant solutions as I have time to go back over code
+and make appropriate changes.
 
 I'm open to suggestions, criticism, or anything else.  If you are
 interested in offering better solutions, please feel free to submit a
