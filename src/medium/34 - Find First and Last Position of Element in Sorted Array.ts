@@ -1,5 +1,5 @@
 /**
- * Searches for the first and last occurrence of a target against a numbered array.
+ * Searches for the first and last occurrence of a target against a numbered array.  Speed is `O(log n)`
  * 
  * @param nums The array of numbers to search against
  * @param target The target to search for
