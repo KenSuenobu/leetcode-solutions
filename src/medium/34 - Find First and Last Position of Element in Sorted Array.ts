@@ -1,11 +1,12 @@
 /**
- * Searches for the first and last occurrence of a target against a numbered array.  Speed is `O(log n)`
+ * Searches for the first and last occurrence of a target against a numbered array.  Speed is potentially faster
+ * than `O(log n)` - potentially `O(log n/2)`
  * 
  * @param nums The array of numbers to search against
  * @param target The target to search for
  * @returns The first and last occurrence of target's position in the `nums` array, or -1 if not found.
  */
-function searchRange(nums: number[], target: number): number[] {
+ function searchRange(nums: number[], target: number): number[] {
     if (nums.length === 0) {
         return [-1, -1];
     }
@@ -17,10 +18,17 @@ function searchRange(nums: number[], target: number): number[] {
         if (nums[i] === target) {
             if (first === -1) {
                 first = last = i;
-                continue;
+                break;
             }
-            
-            last = i;
+        }
+    }
+    
+    if (last !== -1) {
+        for (let i = nums.length; i > 0; i--) {
+            if (nums[i] === target) {
+                last = i;
+                break;
+            }
         }
     }
     
